@@ -1,0 +1,402 @@
+/*
+|--------------------------------------------------------------------------
+| Text Colours
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the text color of an element.
+|
+| Most text color utilities are created by the framework and
+| follow the ".text-colorname" naming scheme.
+|
+*/
+
+.text-transparent {
+    color: transparent;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Families
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the font family of an element.
+|
+*/
+
+.font-sans {
+    font-family: $font-family-sans-serif;
+}
+
+.font-serif {
+    font-family: $font-family-serif;
+}
+
+.font-mono {
+    font-family: $font-family-monospace;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Size
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the font size of an element.
+|
+*/
+
+.text-xs {
+    font-size: .75rem;
+}
+
+.text-sm {
+    font-size: .875rem;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+}
+
+.text-4xl {
+    font-size: 2.25rem;
+}
+
+.text-5xl {
+    font-size: 3rem;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Weight
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the font weight of an element.
+|
+*/
+
+.font-hairline {
+    font-weight: 100;
+}
+
+.font-thin {
+    font-weight: 200;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extrabold {
+    font-weight: 800;
+}
+
+.font-black {
+    font-weight: 900;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Letter Spacing
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the tracking (letter spacing) of an element.
+|
+*/
+
+.tracking-tight {
+    letter-spacing: -0.05em;
+}
+
+.tracking-normal {
+    letter-spacing: 0;
+}
+
+.tracking-wide {
+    letter-spacing: 0.05em;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Line Height
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the leading (line height) of an element.
+|
+*/
+
+.leading-none {
+    line-height: 1;
+}
+
+.leading-tight {
+    line-height: 1.25;
+}
+
+.leading-normal {
+    line-height: 1.5;
+}
+
+.leading-loose {
+    line-height: 2;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Lists
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling list styles.
+|
+*/
+
+.list-reset {
+    list-style: none;
+    padding: 0;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Style & Decoration
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the style of text.
+|
+*/
+
+.italic {
+    font-style: italic;
+}
+
+.roman {
+    font-style: normal;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.normal-case {
+    text-transform: none;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.skip-ink {
+    text-decoration-skip: ink;
+}
+
+.antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
+
+.font-variant-normal {
+    font-variant: normal;
+}
+
+.font-small-caps {
+    font-variant: small-caps;
+}
+
+.font-all-small-caps {
+    font-variant: all-small-caps;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Text Alignment
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the alignment of text.
+|
+*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Vertical Alignment
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the vertical alignment of an
+| inline or table-cell box.
+|
+*/
+
+.align-baseline {
+    vertical-align: baseline;
+}
+
+.align-top {
+    vertical-align: top;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.align-bottom {
+    vertical-align: bottom;
+}
+
+.align-text-top {
+    vertical-align: text-top;
+}
+
+.align-text-bottom {
+    vertical-align: text-bottom;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Whitespace & Wrapping
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the whitespace and wrapping of an element.
+|
+*/
+
+.whitespace-normal {
+    white-space: normal;
+}
+
+.whitespace-no-wrap {
+    white-space: nowrap;
+}
+
+.whitespace-pre {
+    white-space: pre;
+}
+
+.whitespace-pre-line {
+    white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+    white-space: pre-wrap;
+}
+
+.break-words {
+    word-wrap: break-word;
+}
+
+.break-normal {
+    word-wrap: normal;
+}
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+/*
+|--------------------------------------------------------------------------
+| Hanging Punctuation
+|--------------------------------------------------------------------------
+|
+| Utility to allow leading punctuation on a paragraph to flow outside the
+| container to preserve the reading flow.
+|
+*/
+
+.hanging-punctuation {
+    text-indent: calc((1em / 2) * -1);
+}
+
+@supports (hanging-punctuation: first) {
+    .hanging-punctuation {
+        text-indent: 0;
+        hanging-punctuation: first;
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Contain Text
+|--------------------------------------------------------------------------
+|
+| Utility to force the containing element to keep all text inside it,
+| instead of allowing for a potential overflow.
+|
+*/
+
+.contain-text {
+    word-break: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

@@ -1,0 +1,65 @@
+/*
+|--------------------------------------------------------------------------
+| Colors
+|--------------------------------------------------------------------------
+|
+| Define default colors to use throughout the framework.
+|
+*/
+
+// Default colors
+$colors: (
+    "grey": #B8C2CC,
+    "gray": #B8C2CC,
+    "red": #E3342F,
+    "orange": #F6993F,
+    "yellow": #FFED4A,
+    "green": #38C172,
+    "teal": #4DC0B5,
+    "blue": #3490DC,
+    "indigo": #6574CD,
+    "purple": #9561E2,
+    "pink": #F66D9B,
+    "cyan": #17a2b8,
+    "white": #ffffff,
+    "black": #000000,
+    "light": #f8f9fa,
+    "dark": #343a40,
+);
+
+/*
+|--------------------------------------------------------------------------
+| Color Shades
+|--------------------------------------------------------------------------
+|
+| Define 3 darker and 3 lighter shades of each color.
+|
+*/
+
+@each $name, $hex in $colors {
+    $color-variations: (
+        #{$name}-darkest: darken($hex, 30%),
+        #{$name}-darker: darken($hex, 15%),
+        #{$name}-dark: darken($hex, 5%),
+        #{$name}-light: lighten($hex, 5%),
+        #{$name}-lighter: lighten($hex, 15%),
+        #{$name}-lightest: lighten($hex, 30),
+    );
+
+    $colors: map-merge($colors, $color-variations)
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Families
+|--------------------------------------------------------------------------
+|
+| Define the typefaces used for different styles of text.
+|
+*/
+
+$font-family-sans-serif: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$font-family-serif: "Constantia", "Lucida Bright", "Lucidabright", "Lucida Serif", "Lucida", "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", "Georgia", serif;
+
+$font-family-monospace: "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;

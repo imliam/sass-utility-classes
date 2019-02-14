@@ -1,0 +1,3963 @@
+/*
+|--------------------------------------------------------------------------
+| Colors
+|--------------------------------------------------------------------------
+|
+| Define default colors to use throughout the framework.
+|
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Color Shades
+|--------------------------------------------------------------------------
+|
+| Define 3 darker and 3 lighter shades of each color.
+|
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Font Families
+|--------------------------------------------------------------------------
+|
+| Define the typefaces used for different styles of text.
+|
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Utilities
+|--------------------------------------------------------------------------
+|
+| Import all utilities.
+|
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Background Attachment
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how a background image behaves when scrolling.
+|
+*/
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
+.bg-scroll {
+  background-attachment: scroll;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Colours
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling an element's background color.
+|
+| Most background color utilities are created by the framework and
+| follow the ".bg-colorname" naming scheme.
+|
+*/
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Position
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the position of an element's background image.
+|
+*/
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-left-bottom {
+  background-position: left bottom;
+}
+
+.bg-left-top {
+  background-position: left top;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-right-top {
+  background-position: right top;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Repeat
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the repetition of an element's background image.
+|
+*/
+
+.bg-repeat {
+  background-repeat: repeat;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-repeat-x {
+  background-repeat: repeat-x;
+}
+
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Size
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the background size of an
+| element's background image.
+|
+*/
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Color
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the color of an element's borders.
+|
+*/
+
+.border-transparent {
+  border-color: transparent;
+}
+
+.border-grey {
+  border-color: #B8C2CC;
+}
+
+.border-gray {
+  border-color: #B8C2CC;
+}
+
+.border-red {
+  border-color: #E3342F;
+}
+
+.border-orange {
+  border-color: #F6993F;
+}
+
+.border-yellow {
+  border-color: #FFED4A;
+}
+
+.border-green {
+  border-color: #38C172;
+}
+
+.border-teal {
+  border-color: #4DC0B5;
+}
+
+.border-blue {
+  border-color: #3490DC;
+}
+
+.border-indigo {
+  border-color: #6574CD;
+}
+
+.border-purple {
+  border-color: #9561E2;
+}
+
+.border-pink {
+  border-color: #F66D9B;
+}
+
+.border-cyan {
+  border-color: #17a2b8;
+}
+
+.border-white {
+  border-color: #ffffff;
+}
+
+.border-black {
+  border-color: #000000;
+}
+
+.border-light {
+  border-color: #f8f9fa;
+}
+
+.border-dark {
+  border-color: #343a40;
+}
+
+.border-grey-darkest {
+  border-color: #627689;
+}
+
+.border-grey-darker {
+  border-color: #8b9cac;
+}
+
+.border-grey-dark {
+  border-color: #a9b5c1;
+}
+
+.border-grey-light {
+  border-color: #c7cfd7;
+}
+
+.border-grey-lighter {
+  border-color: #e5e8ec;
+}
+
+.border-grey-lightest {
+  border-color: white;
+}
+
+.border-gray-darkest {
+  border-color: #627689;
+}
+
+.border-gray-darker {
+  border-color: #8b9cac;
+}
+
+.border-gray-dark {
+  border-color: #a9b5c1;
+}
+
+.border-gray-light {
+  border-color: #c7cfd7;
+}
+
+.border-gray-lighter {
+  border-color: #e5e8ec;
+}
+
+.border-gray-lightest {
+  border-color: white;
+}
+
+.border-red-darkest {
+  border-color: #6b110e;
+}
+
+.border-red-darker {
+  border-color: #ae1c17;
+}
+
+.border-red-dark {
+  border-color: #db231d;
+}
+
+.border-red-light {
+  border-color: #e64a45;
+}
+
+.border-red-lighter {
+  border-color: #ec7672;
+}
+
+.border-red-lightest {
+  border-color: #f5b8b6;
+}
+
+.border-orange-darkest {
+  border-color: #954d07;
+}
+
+.border-orange-darker {
+  border-color: #de730a;
+}
+
+.border-orange-dark {
+  border-color: #f58c27;
+}
+
+.border-orange-light {
+  border-color: #f7a657;
+}
+
+.border-orange-lighter {
+  border-color: #f9c088;
+}
+
+.border-orange-lightest {
+  border-color: #fde7d1;
+}
+
+.border-yellow-darkest {
+  border-color: #b09e00;
+}
+
+.border-yellow-darker {
+  border-color: #fde300;
+}
+
+.border-yellow-dark {
+  border-color: #ffea31;
+}
+
+.border-yellow-light {
+  border-color: #fff064;
+}
+
+.border-yellow-lighter {
+  border-color: #fff597;
+}
+
+.border-yellow-lightest {
+  border-color: #fffce3;
+}
+
+.border-green-darkest {
+  border-color: #164a2c;
+}
+
+.border-green-darker {
+  border-color: #27864f;
+}
+
+.border-green-dark {
+  border-color: #32ad66;
+}
+
+.border-green-light {
+  border-color: #48ca7f;
+}
+
+.border-green-lighter {
+  border-color: #70d69b;
+}
+
+.border-green-lightest {
+  border-color: #abe7c4;
+}
+
+.border-teal-darkest {
+  border-color: #1e5650;
+}
+
+.border-teal-darker {
+  border-color: #328e85;
+}
+
+.border-teal-dark {
+  border-color: #40b4a9;
+}
+
+.border-teal-light {
+  border-color: #60c7bd;
+}
+
+.border-teal-lighter {
+  border-color: #86d4cc;
+}
+
+.border-teal-lightest {
+  border-color: #bee8e4;
+}
+
+.border-blue-darkest {
+  border-color: #124066;
+}
+
+.border-blue-darker {
+  border-color: #1d68a7;
+}
+
+.border-blue-dark {
+  border-color: #2484d2;
+}
+
+.border-blue-light {
+  border-color: #4a9ce0;
+}
+
+.border-blue-lighter {
+  border-color: #75b4e7;
+}
+
+.border-blue-lightest {
+  border-color: #b7d7f3;
+}
+
+.border-indigo-darkest {
+  border-color: #263174;
+}
+
+.border-indigo-darker {
+  border-color: #3849ad;
+}
+
+.border-indigo-dark {
+  border-color: #5263c7;
+}
+
+.border-indigo-light {
+  border-color: #7885d3;
+}
+
+.border-indigo-lighter {
+  border-color: #9fa8e0;
+}
+
+.border-indigo-lightest {
+  border-color: #d9dcf3;
+}
+
+.border-purple-darkest {
+  border-color: #4a1a90;
+}
+
+.border-purple-darker {
+  border-color: #6b26d0;
+}
+
+.border-purple-dark {
+  border-color: #874bde;
+}
+
+.border-purple-light {
+  border-color: #a377e6;
+}
+
+.border-purple-lighter {
+  border-color: #c0a2ee;
+}
+
+.border-purple-lightest {
+  border-color: #ece2fa;
+}
+
+.border-pink-darkest {
+  border-color: #be0c48;
+}
+
+.border-pink-darker {
+  border-color: #f2256a;
+}
+
+.border-pink-dark {
+  border-color: #f5558b;
+}
+
+.border-pink-light {
+  border-color: #f785ab;
+}
+
+.border-pink-lighter {
+  border-color: #fab5cc;
+}
+
+.border-pink-lightest {
+  border-color: #fffdfe;
+}
+
+.border-cyan-darkest {
+  border-color: #062a30;
+}
+
+.border-cyan-darker {
+  border-color: #0f6674;
+}
+
+.border-cyan-dark {
+  border-color: #148ea1;
+}
+
+.border-cyan-light {
+  border-color: #1ab6cf;
+}
+
+.border-cyan-lighter {
+  border-color: #36cee6;
+}
+
+.border-cyan-lightest {
+  border-color: #7adeee;
+}
+
+.border-white-darkest {
+  border-color: #b3b2b2;
+}
+
+.border-white-darker {
+  border-color: #d9d9d9;
+}
+
+.border-white-dark {
+  border-color: #f2f2f2;
+}
+
+.border-white-light {
+  border-color: white;
+}
+
+.border-white-lighter {
+  border-color: white;
+}
+
+.border-white-lightest {
+  border-color: white;
+}
+
+.border-black-darkest {
+  border-color: black;
+}
+
+.border-black-darker {
+  border-color: black;
+}
+
+.border-black-dark {
+  border-color: black;
+}
+
+.border-black-light {
+  border-color: #0d0d0d;
+}
+
+.border-black-lighter {
+  border-color: #262626;
+}
+
+.border-black-lightest {
+  border-color: #4d4c4c;
+}
+
+.border-light-darkest {
+  border-color: #9fadba;
+}
+
+.border-light-darker {
+  border-color: #cbd3da;
+}
+
+.border-light-dark {
+  border-color: #e9ecef;
+}
+
+.border-light-light {
+  border-color: white;
+}
+
+.border-light-lighter {
+  border-color: white;
+}
+
+.border-light-lightest {
+  border-color: white;
+}
+
+.border-dark-darkest {
+  border-color: black;
+}
+
+.border-dark-darker {
+  border-color: #121416;
+}
+
+.border-dark-dark {
+  border-color: #292d32;
+}
+
+.border-dark-light {
+  border-color: #3f474e;
+}
+
+.border-dark-lighter {
+  border-color: #56606a;
+}
+
+.border-dark-lightest {
+  border-color: #7a8793;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Style
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the style of an element's borders.
+|
+*/
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-dashed {
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.border-none {
+  border-style: none;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Width
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the width an element's borders.
+|
+*/
+
+.border-1 {
+  border: 1px;
+}
+
+.border-t-1 {
+  border-top: 1px;
+}
+
+.border-l-1 {
+  border-left: 1px;
+}
+
+.border-r-1 {
+  border-right: 1px;
+}
+
+.border-b-1 {
+  border-bottom: 1px;
+}
+
+.border-x-1 {
+  border-left: 1px;
+  border-right: 1px;
+}
+
+.border-y-1 {
+  border-top: 1px;
+  border-bottom: 1px;
+}
+
+.border-2 {
+  border: 2px;
+}
+
+.border-t-2 {
+  border-top: 2px;
+}
+
+.border-l-2 {
+  border-left: 2px;
+}
+
+.border-r-2 {
+  border-right: 2px;
+}
+
+.border-b-2 {
+  border-bottom: 2px;
+}
+
+.border-x-2 {
+  border-left: 2px;
+  border-right: 2px;
+}
+
+.border-y-2 {
+  border-top: 2px;
+  border-bottom: 2px;
+}
+
+.border-3 {
+  border: 3px;
+}
+
+.border-t-3 {
+  border-top: 3px;
+}
+
+.border-l-3 {
+  border-left: 3px;
+}
+
+.border-r-3 {
+  border-right: 3px;
+}
+
+.border-b-3 {
+  border-bottom: 3px;
+}
+
+.border-x-3 {
+  border-left: 3px;
+  border-right: 3px;
+}
+
+.border-y-3 {
+  border-top: 3px;
+  border-bottom: 3px;
+}
+
+.border-4 {
+  border: 4px;
+}
+
+.border-t-4 {
+  border-top: 4px;
+}
+
+.border-l-4 {
+  border-left: 4px;
+}
+
+.border-r-4 {
+  border-right: 4px;
+}
+
+.border-b-4 {
+  border-bottom: 4px;
+}
+
+.border-x-4 {
+  border-left: 4px;
+  border-right: 4px;
+}
+
+.border-y-4 {
+  border-top: 4px;
+  border-bottom: 4px;
+}
+
+.border-5 {
+  border: 5px;
+}
+
+.border-t-5 {
+  border-top: 5px;
+}
+
+.border-l-5 {
+  border-left: 5px;
+}
+
+.border-r-5 {
+  border-right: 5px;
+}
+
+.border-b-5 {
+  border-bottom: 5px;
+}
+
+.border-x-5 {
+  border-left: 5px;
+  border-right: 5px;
+}
+
+.border-y-5 {
+  border-top: 5px;
+  border-bottom: 5px;
+}
+
+.border-6 {
+  border: 6px;
+}
+
+.border-t-6 {
+  border-top: 6px;
+}
+
+.border-l-6 {
+  border-left: 6px;
+}
+
+.border-r-6 {
+  border-right: 6px;
+}
+
+.border-b-6 {
+  border-bottom: 6px;
+}
+
+.border-x-6 {
+  border-left: 6px;
+  border-right: 6px;
+}
+
+.border-y-6 {
+  border-top: 6px;
+  border-bottom: 6px;
+}
+
+.border-7 {
+  border: 7px;
+}
+
+.border-t-7 {
+  border-top: 7px;
+}
+
+.border-l-7 {
+  border-left: 7px;
+}
+
+.border-r-7 {
+  border-right: 7px;
+}
+
+.border-b-7 {
+  border-bottom: 7px;
+}
+
+.border-x-7 {
+  border-left: 7px;
+  border-right: 7px;
+}
+
+.border-y-7 {
+  border-top: 7px;
+  border-bottom: 7px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Radius
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the border radius of an element.
+|
+*/
+
+.rounded-none {
+  border-radius: 0;
+}
+
+.rounded-0 {
+  border-radius: 0;
+}
+
+.rounded-sm {
+  border-radius: .125rem;
+}
+
+.rounded {
+  border-radius: .25rem;
+}
+
+.rounded-lg {
+  border-radius: .5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.rounded-tl-none {
+  border-radius-top-left: 0;
+}
+
+.rounded-tl-0 {
+  border-radius-top-left: 0;
+}
+
+.rounded-tl-sm {
+  border-radius-top-left: .125rem;
+}
+
+.rounded-tl {
+  border-radius-top-left: .25rem;
+}
+
+.rounded-tl-lg {
+  border-radius-top-left: .5rem;
+}
+
+.rounded-tl-full {
+  border-radius-top-left: 9999px;
+}
+
+.rounded-tr-none {
+  border-radius-top-right: 0;
+}
+
+.rounded-tr-0 {
+  border-radius-top-right: 0;
+}
+
+.rounded-tr-sm {
+  border-radius-top-right: .125rem;
+}
+
+.rounded-tr {
+  border-radius-top-right: .25rem;
+}
+
+.rounded-tr-lg {
+  border-radius-top-right: .5rem;
+}
+
+.rounded-tr-full {
+  border-radius-top-right: 9999px;
+}
+
+.rounded-bl-none {
+  border-radius-bottom-left: 0;
+}
+
+.rounded-bl-0 {
+  border-radius-bottom-left: 0;
+}
+
+.rounded-bl-sm {
+  border-radius-bottom-left: .125rem;
+}
+
+.rounded-bl {
+  border-radius-bottom-left: .25rem;
+}
+
+.rounded-bl-lg {
+  border-radius-bottom-left: .5rem;
+}
+
+.rounded-bl-full {
+  border-radius-bottom-left: 9999px;
+}
+
+.rounded-br-none {
+  border-radius-bottom-right: 0;
+}
+
+.rounded-br-0 {
+  border-radius-bottom-right: 0;
+}
+
+.rounded-br-sm {
+  border-radius-bottom-right: .125rem;
+}
+
+.rounded-br {
+  border-radius-bottom-right: .25rem;
+}
+
+.rounded-br-lg {
+  border-radius-bottom-right: .5rem;
+}
+
+.rounded-br-full {
+  border-radius-bottom-right: 9999px;
+}
+
+.rounded-t-none {
+  border-radius-top-left: 0;
+  border-radius-top-right: 0;
+}
+
+.rounded-t-0 {
+  border-radius-top-left: 0;
+  border-radius-top-right: 0;
+}
+
+.rounded-t-sm {
+  border-radius-top-left: .125rem;
+  border-radius-top-right: .125rem;
+}
+
+.rounded-t {
+  border-radius-top-left: .25rem;
+  border-radius-top-right: .25rem;
+}
+
+.rounded-t-lg {
+  border-radius-top-left: .5rem;
+  border-radius-top-right: .5rem;
+}
+
+.rounded-t-full {
+  border-radius-top-left: 9999px;
+  border-radius-top-right: 9999px;
+}
+
+.rounded-b-none {
+  border-radius-bottom-left: 0;
+  border-radius-bottom-right: 0;
+}
+
+.rounded-b-0 {
+  border-radius-bottom-left: 0;
+  border-radius-bottom-right: 0;
+}
+
+.rounded-b-sm {
+  border-radius-bottom-left: .125rem;
+  border-radius-bottom-right: .125rem;
+}
+
+.rounded-b {
+  border-radius-bottom-left: .25rem;
+  border-radius-bottom-right: .25rem;
+}
+
+.rounded-b-lg {
+  border-radius-bottom-left: .5rem;
+  border-radius-bottom-right: .5rem;
+}
+
+.rounded-b-full {
+  border-radius-bottom-left: 9999px;
+  border-radius-bottom-right: 9999px;
+}
+
+.rounded-l-none {
+  border-radius-top-left: 0;
+  border-radius-bottom-left: 0;
+}
+
+.rounded-l-0 {
+  border-radius-top-left: 0;
+  border-radius-bottom-left: 0;
+}
+
+.rounded-l-sm {
+  border-radius-top-left: .125rem;
+  border-radius-bottom-left: .125rem;
+}
+
+.rounded-l {
+  border-radius-top-left: .25rem;
+  border-radius-bottom-left: .25rem;
+}
+
+.rounded-l-lg {
+  border-radius-top-left: .5rem;
+  border-radius-bottom-left: .5rem;
+}
+
+.rounded-l-full {
+  border-radius-top-left: 9999px;
+  border-radius-bottom-left: 9999px;
+}
+
+.rounded-r-none {
+  border-radius-top-right: 0;
+  border-radius-bottom-right: 0;
+}
+
+.rounded-r-0 {
+  border-radius-top-right: 0;
+  border-radius-bottom-right: 0;
+}
+
+.rounded-r-sm {
+  border-radius-top-right: .125rem;
+  border-radius-bottom-right: .125rem;
+}
+
+.rounded-r {
+  border-radius-top-right: .25rem;
+  border-radius-bottom-right: .25rem;
+}
+
+.rounded-r-lg {
+  border-radius-top-right: .5rem;
+  border-radius-bottom-right: .5rem;
+}
+
+.rounded-r-full {
+  border-radius-top-right: 9999px;
+  border-radius-bottom-right: 9999px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Filters
+|--------------------------------------------------------------------------
+|
+| Utility classes for various CSS filters that can be combined together
+| using CSS variables. When using, the `.filter` class must be used,
+| on an element along with another such as `.filter-blur-1` to set
+| the filter.
+|
+*/
+
+:root {
+  --filter-blur: 0;
+  --filter-brightness: 100%;
+  --filter-contrast: 100%;
+  --filter-grayscale: 0%;
+  --filter-hue-rotate: 0deg;
+  --filter-invert: 0%;
+  --filter-opacity: 100%;
+  --filter-saturate: 100%;
+  --filter-sepia: 0%;
+}
+
+.filter {
+  -webkit-filter: blur(var(--filter-blur)) brightness(var(--filter-brightness)) contrast(var(--filter-contrast)) grayscalevar(--filter-grayscale) hue-rotate(var(--filter-hue-rotate)) invertvar(--filter-invert) opacityvar(--filter-opacity) saturate(var(--filter-saturate)) sepia(var(--filter-sepia));
+          filter: blur(var(--filter-blur)) brightness(var(--filter-brightness)) contrast(var(--filter-contrast)) grayscalevar(--filter-grayscale) hue-rotate(var(--filter-hue-rotate)) invertvar(--filter-invert) opacityvar(--filter-opacity) saturate(var(--filter-saturate)) sepia(var(--filter-sepia));
+}
+
+.filter-blur-0 {
+  --filter-blur: 0px;
+}
+
+.filter-blur-1 {
+  --filter-blur: 1px;
+}
+
+.filter-blur-2 {
+  --filter-blur: 2px;
+}
+
+.filter-blur-3 {
+  --filter-blur: 3px;
+}
+
+.filter-blur-4 {
+  --filter-blur: 4px;
+}
+
+.filter-blur-5 {
+  --filter-blur: 5px;
+}
+
+.filter-blur-10 {
+  --filter-blur: 10px;
+}
+
+.filter-brightness-0 {
+  --filter-brightness: 0%;
+}
+
+.filter-brightness-10 {
+  --filter-brightness: 10%;
+}
+
+.filter-brightness-20 {
+  --filter-brightness: 20%;
+}
+
+.filter-brightness-30 {
+  --filter-brightness: 30%;
+}
+
+.filter-brightness-40 {
+  --filter-brightness: 40%;
+}
+
+.filter-brightness-50 {
+  --filter-brightness: 50%;
+}
+
+.filter-brightness-60 {
+  --filter-brightness: 60%;
+}
+
+.filter-brightness-70 {
+  --filter-brightness: 70%;
+}
+
+.filter-brightness-80 {
+  --filter-brightness: 80%;
+}
+
+.filter-brightness-90 {
+  --filter-brightness: 90%;
+}
+
+.filter-brightness-100 {
+  --filter-brightness: 100%;
+}
+
+.filter-brightness-200 {
+  --filter-brightness: 200%;
+}
+
+.filter-contrast-0 {
+  --filter-contrast: 0%;
+}
+
+.filter-contrast-10 {
+  --filter-contrast: 10%;
+}
+
+.filter-contrast-20 {
+  --filter-contrast: 20%;
+}
+
+.filter-contrast-30 {
+  --filter-contrast: 30%;
+}
+
+.filter-contrast-40 {
+  --filter-contrast: 40%;
+}
+
+.filter-contrast-50 {
+  --filter-contrast: 50%;
+}
+
+.filter-contrast-60 {
+  --filter-contrast: 60%;
+}
+
+.filter-contrast-70 {
+  --filter-contrast: 70%;
+}
+
+.filter-contrast-80 {
+  --filter-contrast: 80%;
+}
+
+.filter-contrast-90 {
+  --filter-contrast: 90%;
+}
+
+.filter-contrast-100 {
+  --filter-contrast: 100%;
+}
+
+.filter-contrast-200 {
+  --filter-contrast: 200%;
+}
+
+.filter-grayscale-0 {
+  --filter-grayscale: 0%;
+}
+
+.filter-grayscale-10 {
+  --filter-grayscale: 10%;
+}
+
+.filter-grayscale-20 {
+  --filter-grayscale: 20%;
+}
+
+.filter-grayscale-30 {
+  --filter-grayscale: 30%;
+}
+
+.filter-grayscale-40 {
+  --filter-grayscale: 40%;
+}
+
+.filter-grayscale-50 {
+  --filter-grayscale: 50%;
+}
+
+.filter-grayscale-60 {
+  --filter-grayscale: 60%;
+}
+
+.filter-grayscale-70 {
+  --filter-grayscale: 70%;
+}
+
+.filter-grayscale-80 {
+  --filter-grayscale: 80%;
+}
+
+.filter-grayscale-90 {
+  --filter-grayscale: 90%;
+}
+
+.filter-grayscale-100 {
+  --filter-grayscale: 100%;
+}
+
+.filter-grayscale-200 {
+  --filter-grayscale: 200%;
+}
+
+.filter-hue-rotate-0 {
+  --filter-hue-rotate: 0deg;
+}
+
+.filter-hue-rotate-45 {
+  --filter-hue-rotate: 45deg;
+}
+
+.filter-hue-rotate-90 {
+  --filter-hue-rotate: 90deg;
+}
+
+.filter-hue-rotate-135 {
+  --filter-hue-rotate: 135deg;
+}
+
+.filter-hue-rotate-180 {
+  --filter-hue-rotate: 180deg;
+}
+
+.filter-hue-rotate-225 {
+  --filter-hue-rotate: 225deg;
+}
+
+.filter-hue-rotate-270 {
+  --filter-hue-rotate: 270deg;
+}
+
+.filter-hue-rotate-315 {
+  --filter-hue-rotate: 315deg;
+}
+
+.filter-hue-rotate-360 {
+  --filter-hue-rotate: 360deg;
+}
+
+.filter-invert-0 {
+  --filter-invert: 0%;
+}
+
+.filter-invert-10 {
+  --filter-invert: 10%;
+}
+
+.filter-invert-20 {
+  --filter-invert: 20%;
+}
+
+.filter-invert-30 {
+  --filter-invert: 30%;
+}
+
+.filter-invert-40 {
+  --filter-invert: 40%;
+}
+
+.filter-invert-50 {
+  --filter-invert: 50%;
+}
+
+.filter-invert-60 {
+  --filter-invert: 60%;
+}
+
+.filter-invert-70 {
+  --filter-invert: 70%;
+}
+
+.filter-invert-80 {
+  --filter-invert: 80%;
+}
+
+.filter-invert-90 {
+  --filter-invert: 90%;
+}
+
+.filter-invert-100 {
+  --filter-invert: 100%;
+}
+
+.filter-invert-200 {
+  --filter-invert: 200%;
+}
+
+.filter-opacity-0 {
+  --filter-opacity: 0%;
+}
+
+.filter-opacity-10 {
+  --filter-opacity: 10%;
+}
+
+.filter-opacity-20 {
+  --filter-opacity: 20%;
+}
+
+.filter-opacity-30 {
+  --filter-opacity: 30%;
+}
+
+.filter-opacity-40 {
+  --filter-opacity: 40%;
+}
+
+.filter-opacity-50 {
+  --filter-opacity: 50%;
+}
+
+.filter-opacity-60 {
+  --filter-opacity: 60%;
+}
+
+.filter-opacity-70 {
+  --filter-opacity: 70%;
+}
+
+.filter-opacity-80 {
+  --filter-opacity: 80%;
+}
+
+.filter-opacity-90 {
+  --filter-opacity: 90%;
+}
+
+.filter-opacity-100 {
+  --filter-opacity: 100%;
+}
+
+.filter-opacity-200 {
+  --filter-opacity: 200%;
+}
+
+.filter-saturate-0 {
+  --filter-saturate: 0%;
+}
+
+.filter-saturate-10 {
+  --filter-saturate: 10%;
+}
+
+.filter-saturate-20 {
+  --filter-saturate: 20%;
+}
+
+.filter-saturate-30 {
+  --filter-saturate: 30%;
+}
+
+.filter-saturate-40 {
+  --filter-saturate: 40%;
+}
+
+.filter-saturate-50 {
+  --filter-saturate: 50%;
+}
+
+.filter-saturate-60 {
+  --filter-saturate: 60%;
+}
+
+.filter-saturate-70 {
+  --filter-saturate: 70%;
+}
+
+.filter-saturate-80 {
+  --filter-saturate: 80%;
+}
+
+.filter-saturate-90 {
+  --filter-saturate: 90%;
+}
+
+.filter-saturate-100 {
+  --filter-saturate: 100%;
+}
+
+.filter-saturate-200 {
+  --filter-saturate: 200%;
+}
+
+.filter-sepia-0 {
+  --filter-sepia: 0%;
+}
+
+.filter-sepia-10 {
+  --filter-sepia: 10%;
+}
+
+.filter-sepia-20 {
+  --filter-sepia: 20%;
+}
+
+.filter-sepia-30 {
+  --filter-sepia: 30%;
+}
+
+.filter-sepia-40 {
+  --filter-sepia: 40%;
+}
+
+.filter-sepia-50 {
+  --filter-sepia: 50%;
+}
+
+.filter-sepia-60 {
+  --filter-sepia: 60%;
+}
+
+.filter-sepia-70 {
+  --filter-sepia: 70%;
+}
+
+.filter-sepia-80 {
+  --filter-sepia: 80%;
+}
+
+.filter-sepia-90 {
+  --filter-sepia: 90%;
+}
+
+.filter-sepia-100 {
+  --filter-sepia: 100%;
+}
+
+.filter-sepia-200 {
+  --filter-sepia: 200%;
+}
+
+.no-filter {
+  -webkit-filter: none;
+          filter: none;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Flex Display
+|--------------------------------------------------------------------------
+|
+| Utilities for creating flex containers.
+|
+*/
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Flex Direction
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the direction of flex items.
+|
+*/
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-col-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Flex Wrapping
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how flex items wrap.
+|
+*/
+
+.flex-no-wrap {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Align Items
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how flex items are positioned along
+| a container's cross axis.
+|
+*/
+
+.items-stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.items-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.items-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.items-baseline {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Align Content
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how lines are positioned
+| in multi-line flex containers.
+|
+*/
+
+.content-start {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.content-center {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.content-end {
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+.content-between {
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+}
+
+.content-around {
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Align Self
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how an individual flex item is positioned
+| along its container's cross axis.
+|
+*/
+
+.self-auto {
+  -ms-flex-item-align: auto;
+      align-self: auto;
+}
+
+.self-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.self-center {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.self-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.self-stretch {
+  -ms-flex-item-align: stretch;
+      align-self: stretch;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Justify Content
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling flex items are positioned along
+| a container's main axis.
+|
+*/
+
+.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Flex, Grow & Shrink
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how flex items grow and shrink.
+|
+*/
+
+.flex-initial {
+  -webkit-box-flex: initial;
+      -ms-flex: initial;
+          flex: initial;
+}
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.flex-auto {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.flex-none {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.flex-grow {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.flex-shrink {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.flex-no-grow {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.flex-no-shrink {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Cursor
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the cursor style when hovering over an element.
+|
+*/
+
+.cursor-alias {
+  cursor: alias;
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.cursor-auto {
+  cursor: auto;
+}
+
+.cursor-cell {
+  cursor: cell;
+}
+
+.cursor-context-menu {
+  cursor: context-menu;
+}
+
+.cursor-col-resize {
+  cursor: col-resize;
+}
+
+.cursor-copy {
+  cursor: copy;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-e-resize {
+  cursor: e-resize;
+}
+
+.cursor-ew-resize {
+  cursor: ew-resize;
+}
+
+.cursor-grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.cursor-help {
+  cursor: help;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.cursor-n-resize {
+  cursor: n-resize;
+}
+
+.cursor-ne-resize {
+  cursor: ne-resize;
+}
+
+.cursor-nesw-resize {
+  cursor: nesw-resize;
+}
+
+.cursor-ns-resize {
+  cursor: ns-resize;
+}
+
+.cursor-nw-resize {
+  cursor: nw-resize;
+}
+
+.cursor-nwse-resize {
+  cursor: nwse-resize;
+}
+
+.cursor-no-drop {
+  cursor: no-drop;
+}
+
+.cursor-none {
+  cursor: none;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.cursor-row-resize {
+  cursor: row-resize;
+}
+
+.cursor-s-resize {
+  cursor: s-resize;
+}
+
+.cursor-se-resize {
+  cursor: se-resize;
+}
+
+.cursor-sw-resize {
+  cursor: sw-resize;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.cursor-w-resize {
+  cursor: w-resize;
+}
+
+.cursor-wait {
+  cursor: wait;
+}
+
+.cursor-zoom-in {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.cursor-zoom-out {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Pointer Events
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling whether an element responds to pointer events.
+|
+*/
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.pointer-events-auto {
+  pointer-events: auto;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Resize
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how an element can be resized.
+|
+*/
+
+.resize-none {
+  resize: none;
+}
+
+.resize {
+  resize: both;
+}
+
+.resize-y {
+  resize: vertical;
+}
+
+.resize-x {
+  resize: horizontal;
+}
+
+/*
+|--------------------------------------------------------------------------
+| User Select
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling whether the user can select text in an element.
+|
+*/
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.select-text {
+  -webkit-user-select: text;
+     -moz-user-select: text;
+      -ms-user-select: text;
+          user-select: text;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Display
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the display box type of an element.
+|
+*/
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.table {
+  display: table;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inline-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Floats
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the wrapping of content around an element.
+|
+*/
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Overflow
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how an element handles content that is too large
+| for the container.
+|
+*/
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.overflow-x-visible {
+  overflow-x: visible;
+}
+
+.overflow-y-visible {
+  overflow-y: visible;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
+
+.scrolling-touch {
+  -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-auto {
+  -webkit-overflow-scrolling: auto;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Position
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how an element is positioned in the DOM.
+|
+*/
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.pin-t {
+  top: 0;
+}
+
+.pin-r {
+  right: 0;
+}
+
+.pin-b {
+  bottom: 0;
+}
+
+.pin-l {
+  left: 0;
+}
+
+.pin-y {
+  top: 0;
+  bottom: 0;
+}
+
+.pin-x {
+  right: 0;
+  left: 0;
+}
+
+.pin {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.pin-none {
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Visibility
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the visible of an element.
+|
+*/
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Z-Index
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the stack order of an element.
+|
+*/
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.z-40 {
+  z-index: 40;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-auto {
+  z-index: auto;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Appearance
+|--------------------------------------------------------------------------
+|
+| Utilities for suppressing native form control styling.
+|
+*/
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Box Shadows
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the box shadow of an element.
+|
+*/
+
+.shadow {
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.shadow-md {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.shadow-lg {
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.shadow-inner {
+  -webkit-box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+          box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+}
+
+.shadow-outline {
+  -webkit-box-shadow: 0 0 0 3px rgba(52, 144, 220, 0.5);
+          box-shadow: 0 0 0 3px rgba(52, 144, 220, 0.5);
+}
+
+.shadow-none {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Opacity
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the opacity of an element.
+|
+*/
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-75 {
+  opacity: .75;
+}
+
+.opacity-50 {
+  opacity: .5;
+}
+
+.opacity-25 {
+  opacity: .25;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Outline
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling an element's outline.
+|
+*/
+
+.outline-none {
+  outline: 0;
+}
+
+/*
+|--------------------------------------------------------------------------
+| SVG
+|--------------------------------------------------------------------------
+|
+| Utilities for styling SVG elements.
+|
+*/
+
+.fill-current {
+  fill: currentColor;
+}
+
+.stroke-current {
+  stroke: currentColor;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Width
+|--------------------------------------------------------------------------
+|
+| Utilities for setting the width of an element.
+|
+*/
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/3 {
+  width: 33.33333%;
+}
+
+.w-2\/3 {
+  width: 66.66667%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-1\/6 {
+  width: 16.66667%;
+}
+
+.w-5\/6 {
+  width: 83.33333%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Min-Width
+|--------------------------------------------------------------------------
+|
+| Utilities for setting the minimum width of an element.
+|
+*/
+
+.min-w-0 {
+  min-width: 0;
+}
+
+.min-w-full {
+  min-width: 100%;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Max-Width
+|--------------------------------------------------------------------------
+|
+| Utilities for setting the maximum width of an element.
+|
+*/
+
+.max-w-xs {
+  max-width: 20rem;
+}
+
+.max-w-sm {
+  max-width: 30rem;
+}
+
+.max-w-md {
+  max-width: 40rem;
+}
+
+.max-w-lg {
+  max-width: 50rem;
+}
+
+.max-w-xl {
+  max-width: 60rem;
+}
+
+.max-w-2xl {
+  max-width: 70rem;
+}
+
+.max-w-3xl {
+  max-width: 80rem;
+}
+
+.max-w-4xl {
+  max-width: 90rem;
+}
+
+.max-w-5xl {
+  max-width: 100rem;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Height
+|--------------------------------------------------------------------------
+|
+| Utilities for setting the height of an element
+|
+*/
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-px {
+  height: 1px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Min-Height
+|--------------------------------------------------------------------------
+|
+| Utilities for setting the minimum height of an element.
+|
+*/
+
+.min-h-0 {
+  min-height: 0;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Max-Height
+|--------------------------------------------------------------------------
+|
+| Utilities for setting the maximum height of an element.
+|
+*/
+
+.max-h-full {
+  max-height: 100%;
+}
+
+.max-h-screen {
+  max-height: 100vh;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Spacing
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling an element's padding and margin.
+|
+*/
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-px {
+  padding: 1px;
+}
+
+.p-auto {
+  padding: auto;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-px {
+  padding-top: 1px;
+}
+
+.pt-auto {
+  padding-top: auto;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
+.pb-px {
+  padding-bottom: 1px;
+}
+
+.pb-auto {
+  padding-bottom: auto;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pl-8 {
+  padding-left: 2rem;
+}
+
+.pl-px {
+  padding-left: 1px;
+}
+
+.pl-auto {
+  padding-left: auto;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pr-1 {
+  padding-right: 0.25rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-px {
+  padding-right: 1px;
+}
+
+.pr-auto {
+  padding-right: auto;
+}
+
+.px-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-px {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.px-auto {
+  padding-left: auto;
+  padding-right: auto;
+}
+
+.py-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-px {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.py-auto {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.-m-0 {
+  margin: -0;
+}
+
+.m-1 {
+  margin: 0.25rem;
+}
+
+.-m-1 {
+  margin: -0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.-m-2 {
+  margin: -0.5rem;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.-m-3 {
+  margin: -0.75rem;
+}
+
+.m-4 {
+  margin: 1rem;
+}
+
+.-m-4 {
+  margin: -1rem;
+}
+
+.m-6 {
+  margin: 1.5rem;
+}
+
+.-m-6 {
+  margin: -1.5rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.-m-8 {
+  margin: -2rem;
+}
+
+.m-px {
+  margin: 1px;
+}
+
+.-m-px {
+  margin: -1px;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.-m-auto {
+  margin: -auto;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.-mt-0 {
+  margin-top: -0;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.-mt-1 {
+  margin-top: -0.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.-mt-2 {
+  margin-top: -0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.-mt-3 {
+  margin-top: -0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.-mt-4 {
+  margin-top: -1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.-mt-8 {
+  margin-top: -2rem;
+}
+
+.mt-px {
+  margin-top: 1px;
+}
+
+.-mt-px {
+  margin-top: -1px;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.-mt-auto {
+  margin-top: -auto;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.-mb-0 {
+  margin-bottom: -0;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.-mb-1 {
+  margin-bottom: -0.25rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.-mb-3 {
+  margin-bottom: -0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.-mb-4 {
+  margin-bottom: -1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.-mb-6 {
+  margin-bottom: -1.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.-mb-8 {
+  margin-bottom: -2rem;
+}
+
+.mb-px {
+  margin-bottom: 1px;
+}
+
+.-mb-px {
+  margin-bottom: -1px;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.-mb-auto {
+  margin-bottom: -auto;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.-ml-0 {
+  margin-left: -0;
+}
+
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
+.-ml-1 {
+  margin-left: -0.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.-ml-2 {
+  margin-left: -0.5rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.-ml-3 {
+  margin-left: -0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
+.-ml-4 {
+  margin-left: -1rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.-ml-6 {
+  margin-left: -1.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.-ml-8 {
+  margin-left: -2rem;
+}
+
+.ml-px {
+  margin-left: 1px;
+}
+
+.-ml-px {
+  margin-left: -1px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.-ml-auto {
+  margin-left: -auto;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.-mr-0 {
+  margin-right: -0;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+.-mr-1 {
+  margin-right: -0.25rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.-mr-2 {
+  margin-right: -0.5rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.-mr-3 {
+  margin-right: -0.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.-mr-4 {
+  margin-right: -1rem;
+}
+
+.mr-6 {
+  margin-right: 1.5rem;
+}
+
+.-mr-6 {
+  margin-right: -1.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.-mr-8 {
+  margin-right: -2rem;
+}
+
+.mr-px {
+  margin-right: 1px;
+}
+
+.-mr-px {
+  margin-right: -1px;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.-mr-auto {
+  margin-right: -auto;
+}
+
+.mx-0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.-mx-0 {
+  margin-left: -0;
+  margin-right: -0;
+}
+
+.mx-1 {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+
+.-mx-1 {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.-mx-2 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.-mx-3 {
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+}
+
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.-mx-4 {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.mx-6 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.-mx-6 {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.-mx-8 {
+  margin-left: -2rem;
+  margin-right: -2rem;
+}
+
+.mx-px {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.-mx-px {
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.-mx-auto {
+  margin-left: -auto;
+  margin-right: -auto;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.-my-0 {
+  margin-top: -0;
+  margin-bottom: -0;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.-my-1 {
+  margin-top: -0.25rem;
+  margin-bottom: -0.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.-my-2 {
+  margin-top: -0.5rem;
+  margin-bottom: -0.5rem;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.-my-3 {
+  margin-top: -0.75rem;
+  margin-bottom: -0.75rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.-my-4 {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.-my-6 {
+  margin-top: -1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.-my-8 {
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+
+.my-px {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.-my-px {
+  margin-top: -1px;
+  margin-bottom: -1px;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.-my-auto {
+  margin-top: -auto;
+  margin-bottom: -auto;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Text Colours
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the text color of an element.
+|
+| Most text color utilities are created by the framework and
+| follow the ".text-colorname" naming scheme.
+|
+*/
+
+.text-transparent {
+  color: transparent;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Families
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the font family of an element.
+|
+*/
+
+.font-sans {
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.font-serif {
+  font-family: "Constantia", "Lucida Bright", "Lucidabright", "Lucida Serif", "Lucida", "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", "Georgia", serif;
+}
+
+.font-mono {
+  font-family: "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Size
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the font size of an element.
+|
+*/
+
+.text-xs {
+  font-size: .75rem;
+}
+
+.text-sm {
+  font-size: .875rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Font Weight
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the font weight of an element.
+|
+*/
+
+.font-hairline {
+  font-weight: 100;
+}
+
+.font-thin {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Letter Spacing
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the tracking (letter spacing) of an element.
+|
+*/
+
+.tracking-tight {
+  letter-spacing: -0.05em;
+}
+
+.tracking-normal {
+  letter-spacing: 0;
+}
+
+.tracking-wide {
+  letter-spacing: 0.05em;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Line Height
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the leading (line height) of an element.
+|
+*/
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-normal {
+  line-height: 1.5;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Lists
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling list styles.
+|
+*/
+
+.list-reset {
+  list-style: none;
+  padding: 0;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Style & Decoration
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the style of text.
+|
+*/
+
+.italic {
+  font-style: italic;
+}
+
+.roman {
+  font-style: normal;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.normal-case {
+  text-transform: none;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.skip-ink {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip: ink;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subpixel-antialiased {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+.font-variant-normal {
+  font-variant: normal;
+}
+
+.font-small-caps {
+  font-variant: small-caps;
+}
+
+.font-all-small-caps {
+  font-variant: all-small-caps;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Text Alignment
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the alignment of text.
+|
+*/
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Vertical Alignment
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the vertical alignment of an
+| inline or table-cell box.
+|
+*/
+
+.align-baseline {
+  vertical-align: baseline;
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
+.align-bottom {
+  vertical-align: bottom;
+}
+
+.align-text-top {
+  vertical-align: text-top;
+}
+
+.align-text-bottom {
+  vertical-align: text-bottom;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Whitespace & Wrapping
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the whitespace and wrapping of an element.
+|
+*/
+
+.whitespace-normal {
+  white-space: normal;
+}
+
+.whitespace-no-wrap {
+  white-space: nowrap;
+}
+
+.whitespace-pre {
+  white-space: pre;
+}
+
+.whitespace-pre-line {
+  white-space: pre-line;
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
+}
+
+.break-words {
+  word-wrap: break-word;
+}
+
+.break-normal {
+  word-wrap: normal;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Hanging Punctuation
+|--------------------------------------------------------------------------
+|
+| Utility to allow leading punctuation on a paragraph to flow outside the
+| container to preserve the reading flow.
+|
+*/
+
+.hanging-punctuation {
+  text-indent: calc((1em / 2) * -1);
+}
+
+@supports (hanging-punctuation: first) {
+  .hanging-punctuation {
+    text-indent: 0;
+    hanging-punctuation: first;
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Contain Text
+|--------------------------------------------------------------------------
+|
+| Utility to force the containing element to keep all text inside it,
+| instead of allowing for a potential overflow.
+|
+*/
+
+.contain-text {
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+

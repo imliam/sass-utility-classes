@@ -1,0 +1,128 @@
+/*
+|--------------------------------------------------------------------------
+| Background Attachment
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling how a background image behaves when scrolling.
+|
+*/
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-local {
+    background-attachment: local;
+}
+
+.bg-scroll {
+    background-attachment: scroll;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Colours
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling an element's background color.
+|
+| Most background color utilities are created by the framework and
+| follow the ".bg-colorname" naming scheme.
+|
+*/
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Position
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the position of an element's background image.
+|
+*/
+
+.bg-bottom {
+    background-position: bottom;
+}
+
+.bg-center {
+    background-position: center;
+}
+
+.bg-left {
+    background-position: left;
+}
+
+.bg-left-bottom {
+    background-position: left bottom;
+}
+
+.bg-left-top {
+    background-position: left top;
+}
+
+.bg-right {
+    background-position: right;
+}
+
+.bg-right-bottom {
+    background-position: right bottom;
+}
+
+.bg-right-top {
+    background-position: right top;
+}
+
+.bg-top {
+    background-position: top;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Repeat
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the repetition of an element's background image.
+|
+*/
+
+.bg-repeat {
+    background-repeat: repeat;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+.bg-repeat-x {
+    background-repeat: repeat-x;
+}
+
+.bg-repeat-y {
+    background-repeat: repeat-y;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Background Size
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the background size of an
+| element's background image.
+|
+*/
+
+.bg-auto {
+    background-size: auto;
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.bg-contain {
+    background-size: contain;
+}

@@ -1,0 +1,65 @@
+/*
+|--------------------------------------------------------------------------
+| Spacing
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling an element's padding and margin.
+|
+*/
+
+$spacing-class: (
+    "p": "padding",
+    "m": "margin",
+);
+
+$spacing-sides: (
+    "": "",
+    "t": "-top",
+    "b": "-bottom",
+    "l": "-left",
+    "r": "-right",
+    "x": "-left" "-right",
+    "y": "-top" "-bottom",
+);
+
+$spacing-spaces: (
+    "-0": "0",
+    "-1": "0.25rem",
+    "-2": "0.5rem",
+    "-3": "0.75rem",
+    "-4": "1rem",
+    "-6": "1.5rem",
+    "-8": "2rem",
+    "-px": "1px",
+    "-auto": "auto",
+);
+
+@each $className, $classProperty in $spacing-class {
+    @each $sideName, $sideProperty in $spacing-sides {
+        @each $spaceName, $spaceProperty in $spacing-spaces {
+
+            .#{$className}#{$sideName}#{$spaceName} {
+                @if type-of($sideProperty) == "list" {
+                    @each $side in $sideProperty {
+                        #{$classProperty}#{$side}: #{$spaceProperty};
+                    }
+                } @else {
+                    #{$classProperty}#{$sideProperty}: #{$spaceProperty};
+                }
+            }
+
+            @if $classProperty == "margin" {
+                .-#{$className}#{$sideName}#{$spaceName} {
+                    @if type-of($sideProperty) == "list" {
+                        @each $side in $sideProperty {
+                            #{$classProperty}#{$side}: -#{$spaceProperty};
+                        }
+                    } @else {
+                        #{$classProperty}#{$sideProperty}: -#{$spaceProperty};
+                    }
+                }
+            }
+
+        }
+    }
+}

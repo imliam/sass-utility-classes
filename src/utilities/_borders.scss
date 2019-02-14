@@ -1,0 +1,130 @@
+/*
+|--------------------------------------------------------------------------
+| Border Color
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the color of an element's borders.
+|
+*/
+
+.border-transparent {
+    border-color: transparent;
+}
+
+@each $name, $hex in $colors {
+    .border-#{$name} {
+        border-color: $hex;
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Style
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the style of an element's borders.
+|
+*/
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.border-dotted {
+    border-style: dotted;
+}
+
+.border-none {
+    border-style: none;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Width
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the width an element's borders.
+|
+*/
+
+@for $i from 1 to 8 {
+    .border-#{$i} {
+        border: #{$i}px;
+    }
+
+    .border-t-#{$i} {
+        border-top: #{$i}px;
+    }
+
+    .border-l-#{$i} {
+        border-left: #{$i}px;
+    }
+
+    .border-r-#{$i} {
+        border-right: #{$i}px;
+    }
+
+    .border-b-#{$i} {
+        border-bottom: #{$i}px;
+    }
+
+    .border-x-#{$i} {
+        border-left: #{$i}px;
+        border-right: #{$i}px;
+    }
+
+    .border-y-#{$i} {
+        border-top: #{$i}px;
+        border-bottom: #{$i}px;
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Border Radius
+|--------------------------------------------------------------------------
+|
+| Utilities for controlling the border radius of an element.
+|
+*/
+
+$border-corners: (
+    "": "",
+    "-tl": "-top-left",
+    "-tr": "-top-right",
+    "-bl": "-bottom-left",
+    "-br": "-bottom-right",
+    "-t": "-top-left" "-top-right",
+    "-b": "-bottom-left" "-bottom-right",
+    "-l": "-top-left" "-bottom-left",
+    "-r": "-top-right" "-bottom-right",
+);
+
+$border-values: (
+    "-none": "0",
+    "-0": "0",
+    "-sm": ".125rem",
+    "": ".25rem",
+    "-lg": ".5rem",
+    "-full": "9999px",
+);
+
+@each $cornerName, $cornerProperty in $border-corners {
+    @each $borderName, $borderProperty in $border-values {
+
+        .rounded#{$cornerName}#{$borderName} {
+            @if type-of($cornerProperty) == "list" {
+                @each $corner in $cornerProperty {
+                    border-radius#{$corner}: #{$borderProperty};
+                }
+            } @else {
+                border-radius#{$cornerProperty}: #{$borderProperty};
+            }
+        }
+
+    }
+}

@@ -39,7 +39,7 @@ If using Sass in your own project, you can import the utility classes using the 
 @import "~sass-utility-classes/src/styles";
 ```
 
-If not using Sass, you can include the prebuilt `styles.css` file in the build directory as a regular.
+You can instead include the prebuilt `styles.css` file from the build directory as a regular CSS file in your HTML.
 
 ```html
 <link rel="stylesheet" href="/link/to/built/styles.css" />
